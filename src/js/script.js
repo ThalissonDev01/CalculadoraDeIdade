@@ -46,9 +46,9 @@ function calculateAge() {
         y3--;
     }
     
-    result.innerHTML = `Você tem ${y3} anos`;
-    result2.innerHTML = `${m3} Meses `;
-    result3.innerHTML = `${d3} dias`;
+    result.innerHTML = `Você tem <span>${y3}</span> anos`;
+    result2.innerHTML = `<span>${m3}</span> Meses `;
+    result3.innerHTML = `<span>${d3}</span> dias`;
 }
 
 function getDaysInMonth(year, month) {
